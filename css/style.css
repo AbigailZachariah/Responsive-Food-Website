@@ -1,4 +1,33 @@
-#navbar img{
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --navbar-height:59px;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+}
+#navbar ul{
+    margin: 4px 23px;
+}
+#navbar ul li{
+    list-style: none;
+}
+
+#logo img{
     height: 66px;
     width:73px;
+}
+ 
+#logo{
+    display: flex;
+    margin:19px 23px;
+}
+
+.item a{
+    text-decoration: none;
 }
