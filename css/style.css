@@ -1,3 +1,4 @@
+/* CSS Reset */
 *{
     margin: 0px;
     padding: 0px;
@@ -7,27 +8,51 @@
     --navbar-height:59px;
 }
 
+#logo{
+    margin:19px 23px;
+} 
+
+#logo img{
+    height: 72px;
+    width:82px;
+    filter: invert(100%);
+}
+
 #navbar{
     display: flex;
     align-items: center;
 }
+
 #navbar ul{
-    margin: 4px 23px;
-}
-#navbar ul li{
-    list-style: none;
-}
-
-#logo img{
-    height: 66px;
-    width:73px;
-}
- 
-#logo{
     display: flex;
-    margin:19px 23px;
 }
 
-.item a{
-    text-decoration: none;
+#navbar::before{
+    content: "";
+    background-color:#472c12f5;
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
 }
+
+#navbar ul li{
+    /* To remove bullet points */
+    list-style: none; 
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 4px 16px;
+    border:3PX solid #C5A059;
+    background-color: #F5F5DC;
+    color: #472c12f5;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 20px;
+    margin:2px 12px;
+}
+
+
