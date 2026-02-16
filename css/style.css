@@ -104,6 +104,10 @@
     padding:9px;
 }
 
+.h-secondary{
+    font-size:1.72rem ;
+    padding: 15px;
+}
 .btn{
     background-color:#855434;
     color: #F5F5DC;
@@ -121,4 +125,14 @@
     background-color:#E5D3B3;;
     color: #3D2B1F;
     font-size: 1.3rem;
+}
+
+.box{
+    display: flex;
+    border: 2px solid #3D2B1F;
+    margin: 3px 5px;
+}
+
+.center{
+    text-align: center;
 }
