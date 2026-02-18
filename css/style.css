@@ -69,16 +69,18 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 487px; 
+    height: 279px; 
     padding: 123px 200px;
 }
 
 #home::before{
     content: "";
     position: absolute;
-    height: 100%;
+    height: 80%;
     width: 100%;
     background: url('../bg1.jpg')no-repeat center center/cover;
+    top:0px;
+    left: 0px;
     z-index: -1;
     opacity: 0.26;
 }
@@ -139,17 +141,18 @@
 }
 
 #services .box img{
-    width:178px;
-    height: 179px;
+    width:183px;
+    height: 181px;
     display: block;
     margin:auto;
-    border-radius: 96px;
+    border-radius: 98px;
     object-fit: cover;
 }
 
 #services p{
     font-size: 17px;
     font-family: cursive;
+    padding: 0px 6px;
 }
 
 .center{
