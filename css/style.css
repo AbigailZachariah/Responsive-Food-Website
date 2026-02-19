@@ -156,11 +156,9 @@
     padding: 0px 6px;
 }
 
-#about-section{
-
-}
-
 #about-section .h-about{
+    display: flex;
+    flex-direction: column;
     font-size:1.85rem ;
     font-family: "Edu NSW ACT Cursive", cursive;
     padding: 15px;
@@ -180,6 +178,14 @@
 #about-section #About p{
     font-size: 1.5rem;
     padding: 0px 6px;
+}
+
+#about-section .HoursLocation{
+    color: rgb(8, 8, 8);
+    border-radius: 18px;
+    padding: 7px 52px;
+    margin: 12px;
+    height: 176px;
 }
 
 .center{
