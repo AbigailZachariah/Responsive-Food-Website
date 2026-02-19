@@ -104,14 +104,15 @@
 }
 
 .h-secondary{
-    font-size:1.75rem ;
+    font-size:1.85rem ;
     padding: 15px;
+    font-weight: 900;
 }
 .btn{
     background-color:#855434;
     color: #F5F5DC;
     padding: 5px 4px;
-    margin: 13px 4px;
+    margin: 15px 4px;
     border: 2px solid #3D2B1F;
     border-radius: 8px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -149,12 +150,39 @@
     object-fit: cover;
 }
 
-#services p{
+#services .box p{
     font-size: 17px;
     font-family: cursive;
+    padding: 0px 6px;
+}
+
+#about-section{
+
+}
+
+#about-section .h-about{
+    font-size:1.85rem ;
+    font-family: "Edu NSW ACT Cursive", cursive;
+    padding: 15px;
+    font-weight: 900;
+
+}
+
+#about-section .story{
+    color: white;
+    border-radius: 18px;
+    padding: 7px 52px;
+    margin: 12px;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../bg.jpg')no-repeat center center/cover;
+    height: 176px;
+}
+
+#about-section #About p{
+    font-size: 1.5rem;
     padding: 0px 6px;
 }
 
 .center{
     text-align: center;
 }
+
