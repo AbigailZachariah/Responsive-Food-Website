@@ -255,9 +255,24 @@
     padding: 8px 2px;
 }
 
+#about-section .Reserve .booking .date input{
+    margin: 1px 9px;
+    padding: 7px 2px;
+    font-size: 15px;
+    border:solid 2px #4d2e19;
+}
+
 #about-section .Reserve .booking .guest{
     margin: 1px 22px;
     padding: 8px 2px;
+}
+
+#about-section .Reserve .booking .guest #guests{
+    margin: 1px 12px;
+    padding: 8px 2px;
+    font-size: 15px;
+    border:solid 2px #4d2e19;
+    width:80px
 }
 
 #about-section .Reserve .booking .Time{
@@ -265,12 +280,20 @@
     padding: 8px 2px;
 }
 
+#about-section .Reserve .booking .Time #real-Time{
+    margin: 1px 12px;
+    padding: 8px 2px;
+    font-size: 15px;
+    border:solid 2px #4d2e19;
+    width:92px
+}
+
 #about-section .Reserve .booking .form-btn{
     cursor: pointer;
     background-color:#855434;
     color: #F5F5DC;
     padding: 5px 4px;
-    margin: 15px 4px;
+    margin: 13px 4px;
     border: 2px solid #3D2B1F;
     border-radius: 8px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
