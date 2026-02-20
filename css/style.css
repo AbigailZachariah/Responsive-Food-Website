@@ -99,7 +99,7 @@
 
 .h-primary{
     font-size: 3.4rem;
-    padding:9px;
+    padding:11px;
     color: #472c12f5;
     text-shadow:2px 2px 8px darkkhaki;
 }
@@ -129,8 +129,9 @@
 }
 
 #services{
-    margin:32px;
+    padding:32px;
     display: flex;
+    overflow: hidden;
 }
 
 #services .box{
@@ -168,14 +169,14 @@
 #about-section .h-about{
     font-size:1.85rem ;
     font-family: "Edu NSW ACT Cursive", cursive;
-    padding: 15px;
+    padding: 14px;
     font-weight: 900;
 
 }
 
 #about-section .story{
     color: white;
-    padding: 7px 31px;
+    padding: 7px 21px;
     margin: 0px;
     background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../bg.jpg')no-repeat center center/cover;
     height: 200px;
@@ -184,7 +185,7 @@
 
 #about-section #About p{
     font-size: 1.5rem;
-    padding: 0px 6px;
+    padding: 2px 6px;
 }
 
 #about-section .HoursLocation{
@@ -199,7 +200,7 @@
 #about-section .HoursLocation .hours{
     font-size: 1.5rem;
     border-radius: 18px;
-    padding: 15px 31px;
+    padding: 15px 21px;
     margin: -21px -2px;
     height: 150px;
 }
@@ -230,15 +231,56 @@
 #about-section .Reserve{
     background-color: #ffe9c7;
     color: rgb(8, 8, 8);
-    padding: 31px 31px;
+    padding: 31px 21px;
     margin: 0px;
-    height: 176px;
+    height: 190px;
     width: 100%;
 }
 
+#about-section .Reserve p{
+    margin: 5px;
+}
+
 #about-section .Reserve .booking{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5rem;
     display: flex;
     flex-direction: row;
+    margin: 10px;
+    padding: 8px 2px;
+}
+
+#about-section .Reserve .booking .date{
+    margin: 1px -1px;
+    padding: 8px 2px;
+}
+
+#about-section .Reserve .booking .guest{
+    margin: 1px 22px;
+    padding: 8px 2px;
+}
+
+#about-section .Reserve .booking .Time{
+    margin: 1px 22px;
+    padding: 8px 2px;
+}
+
+#about-section .Reserve .booking .form-btn{
+    cursor: pointer;
+    background-color:#855434;
+    color: #F5F5DC;
+    padding: 5px 4px;
+    margin: 15px 4px;
+    border: 2px solid #3D2B1F;
+    border-radius: 8px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.0rem;
+    font-weight: bold;
+}
+
+#about-section .Reserve .booking .form-btn:hover{
+    background-color: #4d2e19;
+    color: white;
 }
 
 .center{
