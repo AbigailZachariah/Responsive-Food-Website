@@ -55,7 +55,7 @@
     font-weight: bold;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border-radius: 20px;
-    margin:-20px 12px;
+    margin:10px 17px;
 }
 
 #navbar ul li a:hover{
@@ -163,7 +163,7 @@
 }
 #about-section{
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
 }
 
 #about-section .h-about{
@@ -233,7 +233,7 @@
     color: rgb(8, 8, 8);
     padding: 31px 21px;
     margin: 0px;
-    height: 190px;
+    height: 195px;
     width: 100%;
 }
 
@@ -246,12 +246,11 @@
     font-size: 1.5rem;
     display: flex;
     flex-direction: row;
-    margin: 10px;
-    padding: 8px 2px;
+    padding: 2px 8px;
 }
 
 #about-section .Reserve .booking .date{
-    margin: 1px -1px;
+    margin: 1px 1px;
     padding: 8px 2px;
 }
 
@@ -288,7 +287,7 @@
     width:92px
 }
 
-#about-section .Reserve .booking .form-btn{
+.form-btn{
     cursor: pointer;
     background-color:#855434;
     color: #F5F5DC;
@@ -301,11 +300,105 @@
     font-weight: bold;
 }
 
-#about-section .Reserve .booking .form-btn:hover{
+.form-btn:hover{
     background-color: #4d2e19;
     color: white;
 }
 
+#contact{
+    position: relative;
+    height: 505px;
+    padding: 21px 40px;
+    margin-top: 17px;
+}
+
+#contact::before{
+    content: "";
+    position: absolute;
+    height: 96%;
+    width: 100%;
+    box-shadow: inset 0 0 7px 7px white;
+    left: 0px;
+    background:url('../contact.png')no-repeat center center/cover;
+    z-index: -1;
+    opacity: 0.26;
+}
+
+#contact-box{
+    display: flex;
+    justify-content: space-between;
+    flex:1;
+    margin: 8px;
+    padding: 40px;
+}
+
+#contact-box .form-group{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.26rem;
+}
+
+#contact-box .form-group #name{
+    font-family: cursive;
+    font-size: 15px;
+    border:solid 2px #4d2e19;
+    margin: 5px 2px;
+    padding: 5px 9px;
+}
+
+#contact-box .form-group label{
+    display: inline-block;
+    width:140px;
+}
+
+#contact-box .contact-btn{
+    cursor: pointer;
+    background-color:#855434;
+    color: #F5F5DC;
+    padding: 7px 10px;
+    margin: 13px 4px;
+    width: 99%;
+    border: 3px solid #3D2B1F;
+    border-radius: 56px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.0rem;
+    font-weight: bold;
+}
+
+#contact-box .contact-btn:hover{
+    background-color: #4d2e19;
+    color: white;
+}
+
+#contact .contact-form{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.02rem;
+    margin-top: 10px;
+}
+
+#contact .contact-form h3{
+    font-size: 1.5rem;
+    padding: 5px 0px;
+    margin: 6px 33px;
+}
+
+#contact .contact-form .socials-container{
+    display: flex;
+    margin: 20px 5px;
+}
+
+#contact .contact-form .socials-container img{
+    height:27px;
+    width: 27px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 6px 9px;
+}
 .center{
     text-align: center;
 }
