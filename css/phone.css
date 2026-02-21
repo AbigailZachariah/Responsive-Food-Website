@@ -1,0 +1,128 @@
+#navbar{
+    flex-direction: column;
+}
+
+#navbar ul li a{
+    font-size: 0.7rem;
+    padding: 0 7px;
+}
+
+#home{
+    height: 280px;
+    padding: 3px 68px;
+}
+
+#home::before{
+    height: 390px;
+}
+
+#home p{
+    font-size: 0.97rem;
+}
+
+#services{
+    flex-direction: column;
+}
+
+#services .box{
+    margin: 13px 9px;
+}
+
+#about-section{
+    margin: 5px 12px;
+    padding: 5px 7px;
+}
+
+#about-section #About p{
+    font-size: 1.19rem;
+}
+
+#about-section .HoursLocation .hours{
+    font-size: 1.09rem;
+}
+
+#about-section .HoursLocation h4{
+    font-size: 1.2rem;
+}
+
+#about-section .Reserve{
+    height: 270px;
+}
+
+#about-section .Reserve .booking{
+    flex-wrap: wrap;
+    font-size: 1.0rem;
+}
+
+#about-section .Reserve .booking .date input{
+    margin: 1px 3px;
+    font-size: 13px;
+}
+
+#about-section .Reserve .booking .guest{
+    margin: 1px 0px;
+}
+
+#about-section .Reserve .booking .guest #guests{
+    margin: 1px 3px;
+    font-size: 13px;
+}
+
+#about-section .Reserve .booking .Time{
+    margin: 1px 0px;
+}
+
+#about-section .Reserve .booking .Time #real-Time{
+    margin: 1px 3px;
+    font-size: 13px;
+}
+
+.form-btn{
+    display: block;
+    margin-top: 15px;
+    width: 70%;
+    padding: 3px;
+    border-radius: 34px;
+}
+
+#contact{
+    height: 500px;
+
+}
+
+#contact::before{
+    height: 104%;
+}
+
+#contact-box .form-group{
+    font-size: 1rem;
+}
+
+#contact-box .form-group #name{
+    font-size: 13px;
+    margin: 2px 2px;
+    padding: 2px 4px;
+}
+
+#contact-box .form-group label{
+    width:110px;
+}
+
+#contact .contact-form{
+    font-size: 0.8rem;
+    margin: 2px 0px;
+    padding: 0px 3px;
+}
+
+#contact .contact-form h3{
+    font-size: 1rem;
+    padding: 0 0px;
+}
+#contact .contact-form .socials-container img{
+    height:20px;
+    width: 20px;
+}
+
+.h-primary{
+    font-size: 1.94rem;
+}

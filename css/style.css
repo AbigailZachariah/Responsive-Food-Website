@@ -2,7 +2,10 @@
 *{
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 :root{
@@ -22,7 +25,7 @@
 #navbar{
     display: flex;
     align-items: center;
-    position: relative;
+    position: sticky;
     top: 0px;
 }
 
@@ -32,7 +35,7 @@
 
 #navbar::before{
     content: "";
-    background-color:#472c12f5;
+    background-color:#533519e6;
     position:absolute;
     height: 100%;
     width: 100%;
@@ -71,7 +74,7 @@
     align-items: center;
     text-align: center;
     height: 279px; 
-    padding: 123px 200px;
+    padding: 123px 125px;
 }
 
 #home::before{
@@ -89,17 +92,19 @@
 #home p{
     text-align: center;
     font-size: 1.5rem;
+    margin: 7px 5px;
+    padding: 5px;
+    max-width: 700px;
 }
 
 .cap{
     font-family: "Edu NSW ACT Cursive", cursive;
     font-weight: bold;
-    margin: 3px;
 }
 
 .h-primary{
     font-size: 3.4rem;
-    padding:11px;
+    padding: 1px;
     color: #472c12f5;
     text-shadow:2px 2px 8px darkkhaki;
 }
@@ -113,7 +118,7 @@
     background-color:#855434;
     color: #F5F5DC;
     padding: 5px 4px;
-    margin: 15px 4px;
+    margin: 8px 4px;
     border: 2px solid #3D2B1F;
     border-radius: 8px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -136,7 +141,7 @@
 
 #services .box{
     border: 3.1px solid #472c12f5;
-    margin:-2px 18px;
+    margin:0px 18px;
     padding:22px 16px;
     border-radius: 8px;
     box-shadow: 0 10px 10px rgb(25 23 23 / 28%);
@@ -177,10 +182,10 @@
 #about-section .story{
     color: white;
     padding: 7px 21px;
-    margin: 0px;
+    margin-top:8px;
     background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../bg.jpg')no-repeat center center/cover;
     height: 200px;
-    width: 100%;
+    width: 96.9%;
 }
 
 #about-section #About p{
@@ -194,7 +199,7 @@
     margin: 0px;
     background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../bg3.jpg')no-repeat center center/cover;
     height: 245px;
-    width: 100%;
+    width: 95.6%;
 }
 
 #about-section .HoursLocation .hours{
@@ -234,7 +239,7 @@
     padding: 31px 21px;
     margin: 0px;
     height: 195px;
-    width: 100%;
+    width: 96.9%;
 }
 
 #about-section .Reserve p{
@@ -309,7 +314,7 @@
     position: relative;
     height: 505px;
     padding: 21px 40px;
-    margin-top: 17px;
+    margin-top: 20px;
 }
 
 #contact::before{
