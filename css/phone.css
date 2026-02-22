@@ -45,6 +45,10 @@
     font-size: 1.2rem;
 }
 
+#about-section .HoursLocation{
+    width: 93.6%;
+}
+
 #about-section .Reserve{
     height: 270px;
 }
